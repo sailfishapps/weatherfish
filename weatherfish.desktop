@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=weatherfish
+Icon=icon-launcher-gallery
+Exec=invoker --type=j -s /usr/bin/weatherfish
+Comment=Sailfish UI application
+
+

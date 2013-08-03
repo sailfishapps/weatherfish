@@ -1,0 +1,29 @@
+Name: weatherfish
+Summary: Weather fish
+Version: 0.1
+Release: 1
+Group: Qt/Qt
+License: LICENSE
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |-
+  Weather fish is a beautiful weather application
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- qdeclarative5-boostable
+Requires:
+- qt5-qtgraphicaleffects
+- mapplauncherd-booster-silica-qt5
+- sailfishsilica-qt5
+Files:
+- /usr/share/weatherfish/*.qml
+- /usr/share/weatherfish/pages/*.qml
+- /usr/share/weatherfish/cover/*.qml
+- /usr/share/weatherfish/icons/*.png
+- /usr/share/applications/weatherfish.desktop
+- /usr/bin/weatherfish
+PkgBR: []
