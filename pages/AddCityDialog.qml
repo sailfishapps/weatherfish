@@ -30,6 +30,7 @@ Dialog {
 
     SilicaListView {
         id: view
+        currentIndex: -1
         anchors.fill: parent
         model: model
         header: Column {
